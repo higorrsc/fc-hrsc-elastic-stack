@@ -1,0 +1,41 @@
+# top-most EditorConfig file
+root = true
+
+# Default settings for all files
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 4
+
+# Python files
+[*.py]
+indent_style = space
+indent_size = 4
+max_line_length = 88  # Compatível com Black
+insert_final_newline = true
+
+# Dockerfile
+[Dockerfile]
+indent_style = space
+indent_size = 2
+end_of_line = lf
+insert_final_newline = true
+
+# YAML files (ex: docker-compose.yml)
+[*.yml, *.yaml]
+indent_style = space
+indent_size = 2
+end_of_line = lf
+insert_final_newline = true
+
+# Ignore virtual environments and other common folders
+[**/venv/**]
+trim_trailing_whitespace = false
+insert_final_newline = false
+
+[**/__pycache__/**]
+trim_trailing_whitespace = false
+insert_final_newline = false
