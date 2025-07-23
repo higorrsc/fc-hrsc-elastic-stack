@@ -1,3 +1,11 @@
 {
-    "cSpell.words": ["kibana", "memlock", "ulimits"]
+    "cSpell.words": [
+        "diskio",
+        "healthcheck",
+        "kibana",
+        "memlock",
+        "metricbeat",
+        "metricsets",
+        "ulimits"
+    ]
 }
