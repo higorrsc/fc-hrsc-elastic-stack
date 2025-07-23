@@ -7,8 +7,11 @@
         "codeprogress",
         "Customised",
         "diskio",
+        "dpkg",
         "elasticapm",
         "expvar",
+        "filebeat",
+        "filestream",
         "healthcheck",
         "keepfiles",
         "keytab",
@@ -20,12 +23,17 @@
         "metricbeat",
         "metricsets",
         "mysite",
+        "nginx",
         "odba",
         "oghr",
         "procs",
+        "programdata",
         "rotateeverybytes",
         "Sourcemapping",
         "sourcemaps",
-        "ulimits"
+        "ulimits",
+        "uuid",
+        "xpack",
+        "Xyyh"
     ]
 }
