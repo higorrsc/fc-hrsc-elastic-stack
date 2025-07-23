@@ -1,12 +1,24 @@
 {
     "cSpell.words": [
+        "acks",
+        "alives",
+        "apikey",
         "changeme",
         "diskio",
+        "expvar",
         "healthcheck",
+        "keepfiles",
+        "keytab",
         "kibana",
+        "libbeat",
+        "loadbalance",
         "memlock",
         "metricbeat",
         "metricsets",
+        "procs",
+        "rotateeverybytes",
+        "Sourcemapping",
+        "sourcemaps",
         "ulimits"
     ]
 }
